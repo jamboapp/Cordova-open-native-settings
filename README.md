@@ -6,13 +6,13 @@ The plugin allows you to open OS settings on iOS 9 and Android, via cordova-base
 It will be saved to the config.xml file
 
 ```bash
-cordova plugin (add|rm) https://github.com/guyromb/Cordova-open-native-settings.git --save
+cordova plugin (add|rm) https://github.com/jamboapp/Cordova-open-native-settings.git --save
 ```
 
 or via npm (It will be saved to the package.json file)
 
 ```bash
-npm (install|rm) https://github.com/guyromb/Cordova-open-native-settings.git --save
+npm (install|rm) https://github.com/jamboapp/Cordova-open-native-settings.git --save
 ```
 
 ##Using the plugin (opens Location Settings in Android and Application Settings in iOS)
