@@ -12,19 +12,11 @@
 	    	return NO;
 	    }
 	} else {
-	    if([pref isEqualToString:@"location"] || [pref isEqualToString:@"cellular_usage"]) {
-	      if ([[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]]) {
-	    	return YES;
-	      } else {
-	    	return NO;
-	      }
-	    } else {
-	      if ([[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"prefs:"]]) {
-		return YES;
-	      } else {
-		return NO;
-	      }
-	    }
+        if ([[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]]) {
+            return YES;
+        } else {
+            return NO;
+        }
 	}
 }
 
